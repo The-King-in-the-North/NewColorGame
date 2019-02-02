@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="capp.css">
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+<link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/love-wins/500/Rainbow_horn-512.png" type="image/x-icon" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+</head>
+<body>
+<h1>The Great<br> <span id="colorDisplay">RGB</span><br> Guessing Game</h1>
+
+<div id="stripe">
+	<button id="reset">New Colors</button>
+	<span id="msg"></span>
+	<button id="easyBtn">Easy</button>
+	<button id="hardBtn" class="selected">Hard</button>
+</div>
+
+<div id="container">	
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+</div>	
+<br>
+<div id="result">
+<h2> Attempts : <span id="atts">0</span><br> Your Score : <span id="score">100</span>%</h2>
+</div>
+<script type="text/javascript" src="capp.js"></script>
+</body>
+</html>
