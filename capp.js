@@ -12,6 +12,7 @@ var score = document.querySelector("#score");
 var atts = document.querySelector("#atts");
 var wins = 6;
 var tries = 0;
+var client_id = "121341xn1n2121"
 
 
 	easyBtn.addEventListener("click", function()
